@@ -1,0 +1,123 @@
+.about_banner {
+  background-image: url(about_us_photo/banner_about.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.card-body {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card-body:hover {
+  box-shadow: 0px 0px 30px #00000010;
+  border: 0;
+}
+
+.team {
+  padding-bottom: 90px;
+  background: #fff;
+}
+
+.team .titlepage::before {
+  right: inherit;
+  border: #2e2f34 solid 5px;
+  left: 15px;
+}
+
+.team_main {
+  margin-bottom: 30px;
+  transition: ease-in all 0.3s;
+}
+
+.team_main figure {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.team_main figure img {
+  height: 350px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+#ho_nf:hover {
+  box-shadow: 3px 0 20px rgba(30, 30, 30, 0.31);
+  transition: ease-in all 0.3s;
+}
+
+#ho_nf:hover .team_text {
+  height: auto;
+  transition: ease-in all 0.3s;
+  padding: 5px 20px;
+  border-top-right-radius: 10px;
+}
+
+#ho_nf:hover .li_icon {
+  margin-top: -65px;
+  transition: ease-in all 0.5s;
+  text-decoration: none;
+}
+
+.team_text {
+  cursor: pointer;
+  position: absolute;
+  transition: ease-in all 0.3s;
+  bottom: 0;
+  height: 0;
+  background: #fff;
+  overflow: initial;
+}
+
+.li_icon {
+  display: flex;
+  transition: ease-in all 0.5s;
+  z-index: 99999999999999999999999;
+  position: absolute;
+}
+
+.li_icon a {
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3a404e;
+  box-shadow: 3px 0 9px rgba(30, 30, 30, 0.09);
+}
+
+.li_icon a:hover {
+  background: #0f1012;
+  color: #fff;
+}
+
+.team_text h3 {
+  color: #0c0c0d;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.team_text p {
+  color: #031330;
+  font-size: 17px;
+  line-height: 30px;
+  padding-bottom: 15px;
+}
+
+.team .read_more {
+  margin: 0 auto;
+  display: block;
+  background: #252525;
+  margin-top: 30px;
+}
+
+.team .read_more:hover {
+  background: #464646c7;
+}
